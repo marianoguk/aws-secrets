@@ -1,0 +1,13 @@
+aws:
+  secretsmanager:
+    prefix: my-secrets
+    failFast: true
+    region: us-east-1
+    name: first-secret
+    enabled: true
+cloud:
+  aws:
+    region:
+      static: us-east-1
+    stack:
+      auto: false
